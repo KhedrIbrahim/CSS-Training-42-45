@@ -1,0 +1,76 @@
+           /* TASK ONE */
+           .parent.tone{
+            background-color: rgb(87, 90, 94);
+            width: 400px;
+            height: 150px;
+            margin: 50px auto;
+            text-align: center;
+            transition: all 2s 600ms ease;
+        }                
+        .up.tone {
+            background-color: #dededc;
+            width: 300px;
+            padding: 10px;
+            border-radius: 3px;
+            margin: 0px auto auto auto;
+            box-shadow: 1px 1px 7px 2px black inset;
+        }
+        .down.tone{
+            background-color: #dededc;
+            width: 300px;
+            padding: 10px;
+            border-radius: 3px;
+            margin: 25px auto 0px auto;
+            transition: all 0.5s 0.1s ease-in-out; 
+            box-shadow: 1px 1px 7px 2px black inset;
+        }
+        .parent.tone:hover{
+            margin: 25px auto;
+            cursor: pointer;
+        }
+        .parent.tone:hover .down{
+            margin: 0px auto 0px auto;
+        }
+        /* TASK ONE */
+
+        /* TASK TWO */
+        .ttwo{
+            width: 400px;
+            padding: 40px;
+            margin: 10px auto auto auto;
+            font-size: 0 !important;
+            border: 0px !important;
+            background-color: #cfcaca !important;
+            color: black !important;
+            position: relative;
+        }
+        
+        .ttwo::after{
+            content: "Elzero";
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 20px !important;
+            font-weight: bold;
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            top: 0px;
+            left: 190px;
+            background-color: #cfcaca;
+        }
+        /* TASK TWO */
+        
+        /* TASK THREE */
+        :root {
+            --mainColor: #009688;
+            --mainPadding: 10px;
+        }
+
+        .tthree {
+            width: 300px;
+            color: var(--mainColor , red);
+            margin: 50px auto 0px auto;
+            border: 2px solid var(--mainColor , black);
+            padding-left: var(--mainPadding , 10px);
+        }
+        /* TASK THREE */
